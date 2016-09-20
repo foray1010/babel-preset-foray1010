@@ -1,0 +1,40 @@
+{
+  "name": "babel-preset-foray1010",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">= 4.2"
+  },
+  "description": "my own babel preset",
+  "keywords": [
+    "babel",
+    "preset"
+  ],
+  "private": false,
+  "license": "MIT",
+  "author": "foray1010",
+  "homepage": "https://github.com/foray1010/babel-preset-foray1010",
+  "repository": "foray1010/babel-preset-foray1010",
+  "bugs": "https://github.com/foray1010/babel-preset-foray1010/issues",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "np": "np",
+    "test": "npm run lint"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-react-constant-elements": "^6.9.1",
+    "babel-plugin-transform-react-inline-elements": "^6.8.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-2": "^6.13.0"
+  },
+  "devDependencies": {
+    "eslint-config-foray1010": "^3.6.0",
+    "np": "^2.9.0",
+    "pre-commit": "^1.1.3"
+  }
+}
