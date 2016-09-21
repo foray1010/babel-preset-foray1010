@@ -17,6 +17,11 @@ module.exports = {
         require('babel-plugin-transform-react-constant-elements'),
         require('babel-plugin-transform-react-inline-elements')
       ]
+    },
+    test: {
+      plugins: [
+        require('babel-plugin-transform-react-remove-prop-types')
+      ]
     }
   }
 }
