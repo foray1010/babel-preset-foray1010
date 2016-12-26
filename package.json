@@ -38,7 +38,7 @@
     "modify-babel-preset": "^3.2.0"
   },
   "devDependencies": {
-    "eslint-config-foray1010": "^3.6.0",
+    "eslint-config-foray1010": "^3.11.3",
     "np": "^2.9.0",
     "pre-commit": "^1.1.3"
   }
