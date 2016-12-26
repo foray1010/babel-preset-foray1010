@@ -2,13 +2,15 @@
 
 const modifyBabelPreset = require('modify-babel-preset')
 
+const mergeByEnv = require('./lib/mergeByEnv')
+
 const modifiedReactPreset = modifyBabelPreset('babel-preset-react', {
   'babel-plugin-transform-react-jsx': {
     pragma: 'createElement'
   }
 })
 
-module.exports = {
+module.exports = mergeByEnv({
   presets: [
     require('babel-preset-es2015'),
     require('babel-preset-es2016'),
@@ -31,6 +33,11 @@ module.exports = {
       plugins: [
         require('babel-plugin-istanbul')
       ]
+    },
+    development: {
+      plugins: [
+        require('babel-plugin-tcomb').default
+      ]
     }
   }
-}
+})
