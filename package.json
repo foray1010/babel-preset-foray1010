@@ -2,7 +2,7 @@
   "name": "babel-preset-foray1010",
   "version": "3.0.1",
   "engines": {
-    "node": ">=4.2"
+    "node": ">=6.9"
   },
   "description": "my own babel preset",
   "keywords": [
