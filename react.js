@@ -12,7 +12,7 @@ const modifiedReactPreset = modifyBabelPreset('babel-preset-react', {
 
 module.exports = mergeByEnv({
   presets: [
-    require('babel-preset-es2015'),
+    [require('babel-preset-es2015'), {modules: false}],
     require('babel-preset-es2016'),
     require('babel-preset-es2017'),
     modifiedReactPreset
