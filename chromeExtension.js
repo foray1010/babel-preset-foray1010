@@ -10,8 +10,7 @@ module.exports = mergeAndConcat({
       modules: false,
       targets: {
         browsers: [
-          '> 1%',
-          'last 2 versions'
+          'Chrome >= 34'
         ]
       }
     }]
