@@ -13,7 +13,8 @@ module.exports = mergeAndConcat({
           '> 1%',
           'last 2 versions'
         ]
-      }
+      },
+      useBuiltIns: true
     }]
   ]
 }, reactRules)

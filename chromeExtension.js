@@ -10,9 +10,10 @@ module.exports = mergeAndConcat({
       modules: false,
       targets: {
         browsers: [
-          'Chrome >= 34'
+          'chrome >= 34'
         ]
-      }
+      },
+      useBuiltIns: true
     }]
   ]
 }, reactRules)
