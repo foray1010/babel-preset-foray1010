@@ -7,6 +7,7 @@ module.exports = mergeByEnv({
     'babel-preset-react'
   ],
   plugins: [
+    'babel-plugin-react-css-modules',
     'babel-plugin-transform-decorators-legacy',
     'babel-plugin-transform-object-rest-spread',
     ['babel-plugin-transform-react-jsx', {
