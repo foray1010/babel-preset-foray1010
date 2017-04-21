@@ -37,7 +37,7 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.0",
     "babel-preset-env": "^1.1.8",
     "babel-preset-react": "^6.16.0",
-    "browserslist": "^1.7.5",
+    "browserslist": "^2.0.0",
     "merge-and-concat": "^1.0.2",
     "tcomb": "^3.2.16"
   },
