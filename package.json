@@ -19,15 +19,14 @@
   "scripts": {
     "lint": "eslint .",
     "np": "np",
+    "precommit": "yarn run lint",
     "test": "exit 0"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "dependencies": {
     "app-root-path": "^2.0.1",
     "babel-plugin-istanbul": "^4.1.1",
     "babel-plugin-react-css-modules": "^2.2.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-plugin-tcomb": "^0.3.24",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-plugin-transform-object-rest-spread": "^6.20.2",
@@ -44,7 +43,7 @@
   "devDependencies": {
     "eslint": "^3.17.1",
     "eslint-config-foray1010": "^4.0.0",
-    "np": "^2.9.0",
-    "pre-commit": "^1.1.3"
+    "husky": "^0.13.3",
+    "np": "^2.9.0"
   }
 }
