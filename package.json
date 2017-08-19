@@ -41,7 +41,7 @@
     "tcomb": "^3.2.16"
   },
   "devDependencies": {
-    "eslint": "^3.17.1",
+    "eslint": "^4.5.0",
     "eslint-config-foray1010": "^4.0.0",
     "husky": "^0.14.0",
     "np": "^2.9.0"
