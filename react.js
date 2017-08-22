@@ -17,7 +17,7 @@ module.exports = mergeByEnv({
   plugins: [
     'babel-plugin-react-css-modules',
     'babel-plugin-syntax-dynamic-import',
-    'babel-plugin-transform-decorators-legacy',
+    'babel-plugin-transform-class-properties',
     'babel-plugin-transform-object-rest-spread',
     ['babel-plugin-transform-react-jsx', {
       pragma: 'createElement'
