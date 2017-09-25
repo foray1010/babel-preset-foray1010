@@ -1,6 +1,6 @@
 'use strict'
 
-const browserslistConfigByEnv = require('./lib/browserslistConfigByEnv')
+const getBrowserslistConfig = require('./lib/getBrowserslistConfig')
 const mergeByEnv = require('./lib/mergeByEnv')
 
 module.exports = mergeByEnv({
@@ -8,7 +8,7 @@ module.exports = mergeByEnv({
     ['babel-preset-env', {
       modules: false,
       targets: {
-        browsers: browserslistConfigByEnv
+        browsers: getBrowserslistConfig()
       },
       useBuiltIns: true
     }],

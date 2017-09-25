@@ -15,12 +15,21 @@
   "homepage": "https://github.com/foray1010/babel-preset-foray1010",
   "repository": "foray1010/babel-preset-foray1010",
   "bugs": "https://github.com/foray1010/babel-preset-foray1010/issues",
-  "main": "index.js",
+  "main": "react.js",
   "scripts": {
-    "lint": "eslint .",
     "np": "np",
-    "precommit": "yarn run lint",
-    "test": "exit 0"
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier-eslint",
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier-eslint",
+      "git add"
+    ]
   },
   "dependencies": {
     "app-root-path": "^2.0.1",
@@ -36,7 +45,6 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.0",
     "babel-preset-env": "^1.1.8",
     "babel-preset-react": "^6.16.0",
-    "browserslist": "^2.0.0",
     "ramda": "^0.24.1",
     "tcomb": "^3.2.16"
   },
@@ -44,6 +52,8 @@
     "eslint": "^4.5.0",
     "eslint-config-foray1010": "^5.0.0",
     "husky": "^0.14.0",
-    "np": "^2.9.0"
+    "lint-staged": "^4.2.3",
+    "np": "^2.9.0",
+    "prettier-eslint-cli": "^4.3.2"
   }
 }
