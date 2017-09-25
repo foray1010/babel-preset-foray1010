@@ -5,13 +5,16 @@ const mergeByEnv = require('./lib/mergeByEnv')
 
 module.exports = mergeByEnv({
   presets: [
-    ['babel-preset-env', {
-      modules: false,
-      targets: {
-        browsers: getBrowserslistConfig()
-      },
-      useBuiltIns: true
-    }],
+    [
+      'babel-preset-env',
+      {
+        modules: false,
+        targets: {
+          browsers: getBrowserslistConfig()
+        },
+        useBuiltIns: true
+      }
+    ],
     'babel-preset-react'
   ],
   plugins: [
@@ -19,9 +22,12 @@ module.exports = mergeByEnv({
     'babel-plugin-syntax-dynamic-import',
     'babel-plugin-transform-class-properties',
     'babel-plugin-transform-object-rest-spread',
-    ['babel-plugin-transform-react-jsx', {
-      pragma: 'createElement'
-    }]
+    [
+      'babel-plugin-transform-react-jsx',
+      {
+        pragma: 'createElement'
+      }
+    ]
   ],
   env: {
     production: {
@@ -32,14 +38,10 @@ module.exports = mergeByEnv({
       ]
     },
     test: {
-      plugins: [
-        'babel-plugin-istanbul'
-      ]
+      plugins: ['babel-plugin-istanbul']
     },
     development: {
-      plugins: [
-        'babel-plugin-tcomb'
-      ]
+      plugins: ['babel-plugin-tcomb']
     }
   }
 })

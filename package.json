@@ -5,10 +5,7 @@
     "node": ">=6.9"
   },
   "description": "my own babel preset",
-  "keywords": [
-    "babel",
-    "preset"
-  ],
+  "keywords": ["babel", "preset"],
   "private": false,
   "license": "MIT",
   "author": "foray1010",
@@ -17,19 +14,14 @@
   "bugs": "https://github.com/foray1010/babel-preset-foray1010/issues",
   "main": "react.js",
   "scripts": {
+    "lint": "eslint .",
     "np": "np",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "test": "exit 0"
   },
   "lint-staged": {
-    "*.js": [
-      "prettier-eslint",
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier-eslint",
-      "git add"
-    ]
+    "*.js": ["prettier-eslint --write", "eslint --fix", "git add"],
+    "*.json": ["prettier-eslint --write", "git add"]
   },
   "dependencies": {
     "app-root-path": "^2.0.1",
