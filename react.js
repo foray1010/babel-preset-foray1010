@@ -41,7 +41,7 @@ module.exports = mergeByEnv({
       plugins: ['babel-plugin-istanbul']
     },
     development: {
-      plugins: ['babel-plugin-tcomb']
+      plugins: ['babel-plugin-flow-react-proptypes', 'babel-plugin-tcomb']
     }
   }
 })
