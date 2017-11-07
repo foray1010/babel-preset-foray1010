@@ -16,8 +16,7 @@
   "scripts": {
     "lint": "eslint .",
     "np": "np",
-    "precommit": "lint-staged",
-    "test": "exit 0"
+    "precommit": "lint-staged"
   },
   "lint-staged": {
     "*.js": ["prettier-eslint --write", "eslint --fix", "git add"],
@@ -25,7 +24,7 @@
   },
   "dependencies": {
     "app-root-path": "^2.0.1",
-    "babel-plugin-flow-react-proptypes": "^8.0.0",
+    "babel-plugin-flow-react-proptypes": "^9.0.0",
     "babel-plugin-istanbul": "^4.1.1",
     "babel-plugin-react-css-modules": "^3.0.0",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
