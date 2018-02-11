@@ -372,6 +372,12 @@ babel-plugin-flow-react-proptypes@^17.0.0:
     babel-traverse "^6.25.0"
     babel-types "^6.25.0"
 
+babel-plugin-ramda@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-ramda/-/babel-plugin-ramda-1.4.3.tgz#265b54a92f29f5ed56180b95c499d1ae2a8a25a7"
+  dependencies:
+    ramda "0.x"
+
 babel-plugin-react-css-modules@^3.0.0:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/babel-plugin-react-css-modules/-/babel-plugin-react-css-modules-3.3.3.tgz#5db2b17d4f79f12a7017d74307d5c7999b5bbf4a"
@@ -2494,7 +2500,7 @@ quick-lru@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-1.1.0.tgz#4360b17c61136ad38078397ff11416e186dcfbb8"
 
-ramda@^0.25.0:
+ramda@0.x, ramda@^0.25.0:
   version "0.25.0"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
 
