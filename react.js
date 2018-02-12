@@ -3,20 +3,16 @@
 const getBrowserslistConfig = require('./lib/getBrowserslistConfig')
 const mergeByEnv = require('./lib/mergeByEnv')
 
+const babelPresetEnvConfig = {
+  modules: false,
+  targets: {
+    browsers: getBrowserslistConfig()
+  },
+  useBuiltIns: true
+}
+
 module.exports = mergeByEnv({
-  presets: [
-    [
-      'babel-preset-env',
-      {
-        modules: false,
-        targets: {
-          browsers: getBrowserslistConfig()
-        },
-        useBuiltIns: true
-      }
-    ],
-    'babel-preset-react'
-  ],
+  presets: [['babel-preset-env', babelPresetEnvConfig], 'babel-preset-react'],
   plugins: [
     'babel-plugin-react-css-modules',
     'babel-plugin-transform-object-rest-spread',
@@ -38,6 +34,7 @@ module.exports = mergeByEnv({
       ]
     },
     test: {
+      presets: [['babel-preset-env', {...babelPresetEnvConfig, modules: 'commonjs'}]],
       plugins: ['babel-plugin-transform-class-properties']
     },
     development: {
