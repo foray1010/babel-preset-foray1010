@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-foray1010",
-  "version": "7.6.0",
+  "version": "7.7.0",
   "engines": {
     "node": ">=8.9"
   },
@@ -27,7 +27,6 @@
     "babel-plugin-flow-react-proptypes": "^18.0.0",
     "babel-plugin-ramda": "^1.4.3",
     "babel-plugin-react-css-modules": "^3.0.0",
-    "babel-plugin-tcomb": "^0.3.24",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.20.2",
     "babel-plugin-transform-react-constant-elements": "^6.9.1",
@@ -36,8 +35,7 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.0",
     "babel-preset-env": "^1.1.8",
     "babel-preset-react": "^6.16.0",
-    "ramda": "^0.25.0",
-    "tcomb": "^3.2.16"
+    "ramda": "^0.25.0"
   },
   "devDependencies": {
     "eslint": "^4.5.0",

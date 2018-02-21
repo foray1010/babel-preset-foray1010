@@ -41,8 +41,7 @@ module.exports = mergeByEnv({
       plugins: [
         'babel-plugin-flow-react-proptypes',
         // must be required after `babel-plugin-flow-react-proptypes`
-        'babel-plugin-transform-class-properties',
-        'babel-plugin-tcomb'
+        'babel-plugin-transform-class-properties'
       ]
     }
   }
