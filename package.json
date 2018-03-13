@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "app-root-path": "^2.0.1",
-    "babel-plugin-flow-react-proptypes": "^20.0.0",
+    "babel-plugin-flow-react-proptypes": "^21.0.0",
     "babel-plugin-ramda": "^1.4.3",
     "babel-plugin-react-css-modules": "^3.0.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
