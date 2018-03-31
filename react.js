@@ -26,7 +26,12 @@ module.exports = mergeByEnv({
   env: {
     production: {
       plugins: [
-        'babel-plugin-ramda',
+        [
+          'babel-plugin-ramda',
+          {
+            useES: true
+          }
+        ],
         'babel-plugin-transform-class-properties',
         'babel-plugin-transform-react-constant-elements',
         'babel-plugin-transform-react-inline-elements',
