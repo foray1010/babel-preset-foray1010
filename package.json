@@ -5,7 +5,10 @@
     "node": ">=8.9"
   },
   "description": "my own babel preset",
-  "keywords": ["babel", "preset"],
+  "keywords": [
+    "babel",
+    "preset"
+  ],
   "private": false,
   "license": "MIT",
   "author": "foray1010",
@@ -20,25 +23,31 @@
     "precommit": "lint-staged"
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "lint-staged": {
-    "*.js": ["prettier-eslint --write", "eslint --fix", "git add"],
-    "*.json": ["prettier-eslint --write", "git add"]
+    "*.js": [
+      "prettier-eslint --write",
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier-eslint --write",
+      "git add"
+    ]
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-transform-react-constant-elements": "^7.0.0",
+    "@babel/plugin-transform-react-inline-elements": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
     "app-root-path": "^2.0.1",
-    "babel-plugin-flow-react-proptypes": "^24.0.0",
-    "babel-plugin-ramda": "1.5.0",
-    "babel-plugin-react-css-modules": "^3.0.0",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.20.2",
-    "babel-plugin-transform-react-constant-elements": "^6.9.1",
-    "babel-plugin-transform-react-inline-elements": "^6.22.0",
-    "babel-plugin-transform-react-jsx": "^6.22.0",
+    "babel-plugin-ramda": "1.6.3",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.0",
-    "babel-preset-env": "^1.1.8",
-    "babel-preset-react": "^6.16.0",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
