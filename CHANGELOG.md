@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="8.0.3"></a>
+## [8.0.3](https://github.com/foray1010/babel-preset-foray1010/compare/v8.0.2...v8.0.3) (2018-09-09)
+
+
+### Bug Fixes
+
+* does not run in non-production env ([cedde74](https://github.com/foray1010/babel-preset-foray1010/commit/cedde74))
+
+
+
 <a name="8.0.2"></a>
 ## [8.0.2](https://github.com/foray1010/babel-preset-foray1010/compare/v8.0.1...v8.0.2) (2018-09-09)
 
