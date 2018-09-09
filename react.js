@@ -20,13 +20,7 @@ const babelConfig = {
       plugins: [
         '@babel/plugin-transform-react-constant-elements',
         '@babel/plugin-transform-react-inline-elements',
-        ['babel-plugin-transform-react-remove-prop-types', {removeImport: true}],
-        [
-          'babel-plugin-ramda',
-          {
-            useES: true
-          }
-        ]
+        ['babel-plugin-transform-react-remove-prop-types', {removeImport: true}]
       ]
     },
     test: {

@@ -46,7 +46,6 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "app-root-path": "^2.0.1",
-    "babel-plugin-ramda": "1.6.3",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.0",
     "ramda": "^0.25.0"
   },
