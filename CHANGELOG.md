@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="8.0.1"></a>
+## [8.0.1](https://github.com/foray1010/babel-preset-foray1010/compare/v8.0.0...v8.0.1) (2018-09-09)
+
+
+
 <a name="8.0.0"></a>
 # [8.0.0](https://github.com/foray1010/babel-preset-foray1010/compare/v7.10.2...v8.0.0) (2018-09-09)
 
