@@ -17,26 +17,8 @@
   "bugs": "https://github.com/foray1010/babel-preset-foray1010/issues",
   "main": "react.js",
   "scripts": {
-    "commitmsg": "commitlint -e $GIT_PARAMS",
     "ignore-sync": "ignore-sync",
-    "lint": "eslint .",
-    "precommit": "lint-staged"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier-eslint --write",
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier-eslint --write",
-      "git add"
-    ]
+    "lint": "eslint ."
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.0.0",
@@ -54,7 +36,7 @@
     "@commitlint/config-conventional": "^7.0.0",
     "eslint": "^5.0.0",
     "eslint-config-foray1010": "^6.1.0",
-    "husky": "^0.14.0",
+    "husky": "^1.1.2",
     "ignore-sync": "^1.0.0",
     "lint-staged": "^7.0.0",
     "prettier-eslint-cli": "^4.3.2"
