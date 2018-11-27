@@ -29,7 +29,7 @@
     "@babel/preset-react": "^7.0.0",
     "app-root-path": "^2.0.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.0",
-    "ramda": "^0.25.0"
+    "ramda": "^0.26.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
