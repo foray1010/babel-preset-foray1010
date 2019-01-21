@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="8.1.0"></a>
+# [8.1.0](https://github.com/foray1010/babel-preset-foray1010/compare/v8.0.3...v8.1.0) (2019-01-21)
+
+
+### Features
+
+* support typescript with react ([ceaa9b2](https://github.com/foray1010/babel-preset-foray1010/commit/ceaa9b2))
+
+
+
 <a name="8.0.3"></a>
 ## [8.0.3](https://github.com/foray1010/babel-preset-foray1010/compare/v8.0.2...v8.0.3) (2018-09-09)
 
