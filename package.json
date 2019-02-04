@@ -17,6 +17,7 @@
   "bugs": "https://github.com/foray1010/babel-preset-foray1010/issues",
   "main": "react.js",
   "scripts": {
+    "ci": "yarn lint",
     "ignore-sync": "ignore-sync",
     "lint": "eslint ."
   },
