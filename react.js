@@ -11,7 +11,13 @@ module.exports = () => ({
         useBuiltIns: 'entry'
       }
     ],
-    ['@babel/preset-react', {useBuiltIns: true}],
+    [
+      '@babel/preset-react',
+      {
+        development: getEnv() === 'development',
+        useBuiltIns: true
+      }
+    ],
     '@babel/preset-flow'
   ],
   plugins: [
