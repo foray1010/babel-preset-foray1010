@@ -22,16 +22,16 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.0.0",
-    "@babel/plugin-transform-react-constant-elements": "^7.0.0",
-    "@babel/plugin-transform-react-inline-elements": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-transform-react-constant-elements": "^7.2.0",
+    "@babel/plugin-transform-react-inline-elements": "^7.2.0",
+    "@babel/preset-env": "^7.4.2",
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "@babel/preset-typescript": "^7.1.0",
-    "app-root-path": "^2.0.1",
-    "babel-plugin-transform-react-remove-prop-types": "^0.4.0",
-    "ramda": "^0.26.0"
+    "@babel/preset-typescript": "^7.3.3",
+    "app-root-path": "^2.2.1",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "ramda": "^0.26.1"
   },
   "devDependencies": {
     "@commitlint/cli": "7.5.2",

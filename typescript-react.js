@@ -8,7 +8,8 @@ module.exports = () => ({
       '@babel/preset-env',
       {
         modules: getEnv() === 'test' ? 'commonjs' : false,
-        useBuiltIns: 'entry'
+        useBuiltIns: 'entry',
+        corejs: 2
       }
     ],
     [
