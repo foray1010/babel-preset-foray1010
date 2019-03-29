@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [8.2.0](https://github.com/foray1010/babel-preset-foray1010/compare/v8.1.0...v8.2.0) (2019-03-29)
+
+
+### Bug Fixes
+
+* suppress core-js version warning from [@babel-preset-env](https://github.com/babel-preset-env) ([c0891e8](https://github.com/foray1010/babel-preset-foray1010/commit/c0891e8))
+
+
+### Features
+
+* enable development mode for react ([b8bac8d](https://github.com/foray1010/babel-preset-foray1010/commit/b8bac8d))
+
+
+
 <a name="8.1.0"></a>
 # [8.1.0](https://github.com/foray1010/babel-preset-foray1010/compare/v8.0.3...v8.1.0) (2019-01-21)
 
