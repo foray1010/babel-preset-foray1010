@@ -9,7 +9,7 @@ module.exports = () => ({
       {
         modules: getEnv() === 'test' ? 'commonjs' : false,
         useBuiltIns: 'entry',
-        corejs: 2
+        corejs: {version: 3, proposals: false}
       }
     ],
     [

@@ -33,6 +33,9 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "ramda": "^0.26.1"
   },
+  "peerDependencies": {
+    "core-js": "^3.0.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "7.5.2",
     "@commitlint/config-conventional": "7.5.0",
