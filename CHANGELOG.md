@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [9.0.0](https://github.com/foray1010/babel-preset-foray1010/compare/v8.2.0...v9.0.0) (2019-03-30)
+
+
+### Bug Fixes
+
+* remove unused dependency: ramda ([94def76](https://github.com/foray1010/babel-preset-foray1010/commit/94def76))
+
+
+### Features
+
+* drop @babel/plugin-proposal-class-properties ([20921bc](https://github.com/foray1010/babel-preset-foray1010/commit/20921bc))
+* use core-js 3 ([28f9ba2](https://github.com/foray1010/babel-preset-foray1010/commit/28f9ba2))
+
+
+### Styles
+
+* rename preset react to flow-react ([557600c](https://github.com/foray1010/babel-preset-foray1010/commit/557600c))
+
+
+### BREAKING CHANGES
+
+* cannot use class properties, in favour of react hook
+* use babel-preset-foray1010/flow-react if using flow
+* require core-js 3 as peer dependency
+
+
+
 # [8.2.0](https://github.com/foray1010/babel-preset-foray1010/compare/v8.1.0...v8.2.0) (2019-03-29)
 
 
