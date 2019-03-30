@@ -22,7 +22,6 @@ module.exports = () => ({
     '@babel/preset-flow'
   ],
   plugins: [
-    '@babel/plugin-proposal-class-properties',
     ...(getEnv() === 'production' ?
       [
         '@babel/plugin-transform-react-constant-elements',
