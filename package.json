@@ -15,6 +15,7 @@
   "homepage": "https://github.com/foray1010/babel-preset-foray1010",
   "repository": "foray1010/babel-preset-foray1010",
   "bugs": "https://github.com/foray1010/babel-preset-foray1010/issues",
+  "main": "index.js",
   "scripts": {
     "ci": "yarn lint",
     "eslint": "eslint --ext=js,mjs,ts,tsx --ignore-path=node_modules/@foray1010/eslint-config/eslintignore",
