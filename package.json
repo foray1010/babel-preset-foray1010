@@ -18,7 +18,7 @@
   "main": "index.js",
   "scripts": {
     "ci": "yarn lint",
-    "eslint": "eslint --ext=js,mjs,ts,tsx --ignore-path=node_modules/@foray1010/eslint-config/eslintignore",
+    "eslint": "eslint --ext=cjs,js,mjs,ts,tsx --ignore-path=node_modules/@foray1010/eslint-config/eslintignore",
     "lint": "yarn eslint .",
     "prettier": "prettier --ignore-path=node_modules/@foray1010/prettier-config/prettierignore"
   },
